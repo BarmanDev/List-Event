@@ -1,0 +1,85 @@
+
+.container-cards {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.logo {
+    width: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    background-color: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    border: 1px solid #7b1fa2;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 2px 2px 5px #7b1fa2
+    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-content img {
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    width: 100%;
+    background: #7b1fa2;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-menu a:hover {
+    background: #ba68c8;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+}
