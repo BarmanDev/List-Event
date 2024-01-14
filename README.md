@@ -5,7 +5,7 @@ Este proyecto presenta una lista de tecnologías de programación utilizando tar
 
 ## Requisitos: 
 
--- Mínimo 4 Imágenes: Cada tarjeta debe contener una imagen representativa de la tecnología correspondiente.
+- Mínimo 4 Imágenes: Cada tarjeta debe contener una imagen representativa de la tecnología correspondiente.
 
--- Descripción con Desplegable: La información detallada de cada tecnología se encuentra oculta inicialmente y se despliega al hacer clic en la sección de "Frameworks".
+- Descripción con Desplegable: La información detallada de cada tecnología se encuentra oculta inicialmente y se despliega al hacer clic en la sección de "Frameworks".
 
